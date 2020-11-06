@@ -2,6 +2,8 @@
 
 A vagrant based ELK stack (Elasticsearch, Logstash, Kibana).
 
+Logstash is configured with one pipeline that listens to `Filebeat` input at port `5062`
+
 Installation Steps:
 
 ```bash
@@ -13,9 +15,9 @@ Elasticsearch - http://127.0.0.1:9200
 ## Installed versions 
 
 Contains the following software 
-- Elasticsearch 6.2.4
-- Logstash 6.2.4
-- Kibana 6.2.4 
+- Elasticsearch `<latest>`
+- Logstash `<latest>`
+- Kibana `<latest>`
 
 
 ## Configuration folders
