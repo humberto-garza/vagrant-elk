@@ -15,9 +15,9 @@ Elasticsearch - http://127.0.0.1:9200
 ## Installed versions 
 
 Contains the following software 
-- Elasticsearch `<latest>`
-- Logstash `<latest>`
-- Kibana `<latest>`
+- Elasticsearch `7.<latest>`
+- Logstash `7.<latest>`
+- Kibana `7.<latest>`
 
 
 ## Configuration folders
