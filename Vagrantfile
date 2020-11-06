@@ -13,7 +13,7 @@ Vagrant.configure("2") do |config|
     config.vm.network "forwarded_port", host: 9200, guest: 9200 # Elasticsearch
     config.vm.network "forwarded_port", host: 9300, guest: 9300 # Elasticsearch
     config.vm.network "forwarded_port", host: 5000, guest: 5000 # Logtash
-    config.vm.network "forwarded_port", host: 5000, guest: 5062 # Logtash - Beats
+    config.vm.network "forwarded_port", host: 5062, guest: 5062 # Logtash - Beats
     config.vm.network "forwarded_port", host: 5601, guest: 5601 # Kibana
 
     # configure provisioning
