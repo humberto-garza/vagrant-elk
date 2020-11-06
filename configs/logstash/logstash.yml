@@ -30,3 +30,7 @@ pipeline.ordered: auto
 #
 # log.level: info
 path.logs: /var/log/logstash
+
+# Periodically check if the configuration has changed and reloads the configuration
+# whenever it is changed
+config.reload.automatic: true
