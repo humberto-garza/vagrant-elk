@@ -18,6 +18,7 @@ Vagrant.configure("2") do |config|
 
     # configure provisioning
     config.vm.synced_folder "./", "/vagrant"
+    config.vm.synced_folder "./configs/logstash/conf.d/", "/etc/logstash/conf.d/", create:true
 
     config.vm.provider "virtualbox" do |vb|
         vb.cpus = 1

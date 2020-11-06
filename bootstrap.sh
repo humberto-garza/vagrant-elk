@@ -32,7 +32,6 @@ echo "[*] Installing Logstash"
 sudo apt-get install -y logstash
 
 # copy over configs
-cp -R /vagrant/configs/logstash/conf.d/* /etc/logstash/conf.d/
 cp /vagrant/configs/logstash/logstash.yml /etc/logstash/
 cp /vagrant/configs/logstash/pipelines.yml /etc/logstash/
 sudo systemctl enable logstash.service
